@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36930.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Botaniqa.Api", "Botaniqa.Api.csproj", "{D732D3FD-ED8D-4ADC-B220-16403D166421}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Botaniqa.BusinessLogic", "..\Botaniqa.BusinessLogic\Botaniqa.BusinessLogic.csproj", "{58E94319-C75B-45EC-A816-977AAB7F0F59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Botaniqa.Domain", "..\Botanica.Domain\Botaniqa.Domain.csproj", "{645E2DFB-BE1B-42AE-AAA7-E53CFCE209C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Botaniqa.DataAccess", "..\Botaniqa.Helpers\Botaniqa.DataAccess.csproj", "{DD757321-5F28-418B-A3A8-491E3F7761BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D732D3FD-ED8D-4ADC-B220-16403D166421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D732D3FD-ED8D-4ADC-B220-16403D166421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D732D3FD-ED8D-4ADC-B220-16403D166421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D732D3FD-ED8D-4ADC-B220-16403D166421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58E94319-C75B-45EC-A816-977AAB7F0F59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58E94319-C75B-45EC-A816-977AAB7F0F59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58E94319-C75B-45EC-A816-977AAB7F0F59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58E94319-C75B-45EC-A816-977AAB7F0F59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{645E2DFB-BE1B-42AE-AAA7-E53CFCE209C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{645E2DFB-BE1B-42AE-AAA7-E53CFCE209C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{645E2DFB-BE1B-42AE-AAA7-E53CFCE209C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{645E2DFB-BE1B-42AE-AAA7-E53CFCE209C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD757321-5F28-418B-A3A8-491E3F7761BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD757321-5F28-418B-A3A8-491E3F7761BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD757321-5F28-418B-A3A8-491E3F7761BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD757321-5F28-418B-A3A8-491E3F7761BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE35EA8A-7314-4749-8828-6BF7BC33B2AB}
+	EndGlobalSection
+EndGlobal
