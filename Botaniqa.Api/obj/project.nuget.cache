@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "jd3sj6lxoWQ=",
+  "success": true,
+  "projectFilePath": "D:\\personal\\Uni\\curs 2\\sem 4\\TWeb\\Back\\morimoe\\BotaniqaBackend\\Botaniqa.Api\\Botaniqa.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\morim\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.15\\microsoft.aspnetcore.openapi.9.0.15.nupkg.sha512",
+    "C:\\Users\\morim\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
