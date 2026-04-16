@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Botaniqa.BusinessLogic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ac6ff617ef126b08d26a886b4b9a63e4249a292")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2c540dc0fed401a8ebbebc373be0b991cb2745d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Botaniqa.BusinessLogic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Botaniqa.BusinessLogic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

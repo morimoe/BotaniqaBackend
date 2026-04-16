@@ -46,8 +46,8 @@ namespace Botaniqa.Api.Controller
                     return Ok();
                 }
             }
-                return Ok();
-            
+            return Ok();
+
         }
     }
 }
