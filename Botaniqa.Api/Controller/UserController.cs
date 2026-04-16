@@ -1,8 +1,5 @@
 ﻿using Botaniqa.Api.Domain;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Security.Cryptography.Xml;
 
 namespace Botaniqa.Api.Controller
 {

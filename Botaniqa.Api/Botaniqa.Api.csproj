@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Botaniqa.BusinessLogic\Botaniqa.BusinessLogic.csproj" />
+    <ProjectReference Include="..\Botaniqa.Domain\Botaniqa.Domain.csproj" />
   </ItemGroup>
 
 </Project>

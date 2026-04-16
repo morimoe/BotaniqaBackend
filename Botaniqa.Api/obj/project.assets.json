@@ -105,6 +105,7 @@
   "projectFileDependencyGroups": {
     "net9.0": [
       "Botaniqa.BusinessLogic >= 1.0.0",
+      "Botaniqa.Domain >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 9.0.15"
     ]
   },
@@ -142,6 +143,9 @@
           "projectReferences": {
             "D:\\personal\\Uni\\curs 2\\sem 4\\TWeb\\Back\\morimoe\\BotaniqaBackend\\Botaniqa.BusinessLogic\\Botaniqa.BusinessLogic.csproj": {
               "projectPath": "D:\\personal\\Uni\\curs 2\\sem 4\\TWeb\\Back\\morimoe\\BotaniqaBackend\\Botaniqa.BusinessLogic\\Botaniqa.BusinessLogic.csproj"
+            },
+            "D:\\personal\\Uni\\curs 2\\sem 4\\TWeb\\Back\\morimoe\\BotaniqaBackend\\Botaniqa.Domain\\Botaniqa.Domain.csproj": {
+              "projectPath": "D:\\personal\\Uni\\curs 2\\sem 4\\TWeb\\Back\\morimoe\\BotaniqaBackend\\Botaniqa.Domain\\Botaniqa.Domain.csproj"
             }
           }
         }

@@ -3,6 +3,7 @@ namespace Botaniqa.Api.Domain
     public class Currency
     {
         public int Id { get; set; }
+        //подумать как это сделать, возможно так и оставить
         public string Code { get; set; } = string.Empty;    // "USD", "EUR", "MDL"
         public string Symbol { get; set; } = string.Empty;  // "$", "€", "L"
     }
