@@ -1,6 +1,6 @@
 ﻿namespace Botaniqa.Api.Domain
 {
- 
+ //i made a change
     public class User
     {
         public int Id { get; set; }
