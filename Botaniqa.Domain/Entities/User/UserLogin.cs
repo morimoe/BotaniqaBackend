@@ -1,13 +1,8 @@
-﻿using System.ComponentModel.DataAnnotations;
-public class UserLogin
+﻿namespace Botaniqa.Domain.Entities.User
 {
-    [Required]
-    [Display(Name = "Username or Email")]
-    public string Credential { get; set; } = string.Empty;
-
-    [Required]
-    [DataType(DataType.Password)]
-    [Display(Name = "Password")]
-    public string Password { get; set; } = string.Empty;
-
+    public class UserLogin
+    {
+        public string Credential { get; set; } = string.Empty;
+        public string Password { get; set; } = string.Empty;
+    }
 }

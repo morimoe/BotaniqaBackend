@@ -1,7 +1,10 @@
-﻿public class ULoginData
+﻿namespace Botaniqa.Domain.Entities.User
 {
-    public string Credential {  get; set; } = string.Empty;
-    public string Password { get; set; } = string.Empty;
-    public string LoginIp { get; set; } = string.Empty;
-    public DateTime LoginDateTime { get; set; }
+    public class ULoginData
+    {
+        public string Credential { get; set; } = string.Empty;
+        public string Password { get; set; } = string.Empty;
+        public string? LoginIp { get; set; }
+        public DateTime LoginDateTime { get; set; }
+    }
 }
