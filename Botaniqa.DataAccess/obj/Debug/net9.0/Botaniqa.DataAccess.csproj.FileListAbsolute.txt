@@ -1,0 +1,12 @@
+D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.DataAccess\bin\Debug\net9.0\Botaniqa.DataAccess.deps.json
+D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.DataAccess\bin\Debug\net9.0\Botaniqa.DataAccess.dll
+D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.DataAccess\bin\Debug\net9.0\Botaniqa.DataAccess.pdb
+D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.DataAccess\obj\Debug\net9.0\Botaniqa.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.DataAccess\obj\Debug\net9.0\Botaniqa.DataAccess.AssemblyInfoInputs.cache
+D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.DataAccess\obj\Debug\net9.0\Botaniqa.DataAccess.AssemblyInfo.cs
+D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.DataAccess\obj\Debug\net9.0\Botaniqa.DataAccess.csproj.CoreCompileInputs.cache
+D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.DataAccess\obj\Debug\net9.0\Botaniqa.DataAccess.sourcelink.json
+D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.DataAccess\obj\Debug\net9.0\Botaniqa.DataAccess.dll
+D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.DataAccess\obj\Debug\net9.0\refint\Botaniqa.DataAccess.dll
+D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.DataAccess\obj\Debug\net9.0\Botaniqa.DataAccess.pdb
+D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.DataAccess\obj\Debug\net9.0\ref\Botaniqa.DataAccess.dll

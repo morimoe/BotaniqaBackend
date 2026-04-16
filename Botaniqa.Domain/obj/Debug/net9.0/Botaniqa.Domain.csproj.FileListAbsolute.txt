@@ -1,0 +1,16 @@
+D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.Domain\bin\Debug\net9.0\Botaniqa.Domain.deps.json
+D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.Domain\bin\Debug\net9.0\Botaniqa.Domain.dll
+D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.Domain\bin\Debug\net9.0\Botaniqa.Domain.pdb
+D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.Domain\bin\Debug\net9.0\Botaniqa.DataAccess.dll
+D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.Domain\bin\Debug\net9.0\Botaniqa.DataAccess.pdb
+D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.Domain\obj\Debug\net9.0\Botaniqa.Domain.csproj.AssemblyReference.cache
+D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.Domain\obj\Debug\net9.0\Botaniqa.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.Domain\obj\Debug\net9.0\Botaniqa.Domain.AssemblyInfoInputs.cache
+D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.Domain\obj\Debug\net9.0\Botaniqa.Domain.AssemblyInfo.cs
+D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.Domain\obj\Debug\net9.0\Botaniqa.Domain.csproj.CoreCompileInputs.cache
+D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.Domain\obj\Debug\net9.0\Botaniqa.Domain.sourcelink.json
+D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.Domain\obj\Debug\net9.0\Botaniqa.F0A9BE5C.Up2Date
+D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.Domain\obj\Debug\net9.0\Botaniqa.Domain.dll
+D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.Domain\obj\Debug\net9.0\refint\Botaniqa.Domain.dll
+D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.Domain\obj\Debug\net9.0\Botaniqa.Domain.pdb
+D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.Domain\obj\Debug\net9.0\ref\Botaniqa.Domain.dll

@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Botaniqa.Api",
+    "\\Botaniqa.DataAccess"
   ],
-  "SelectedNode": "\\BotaniqaBackend.sln",
+  "SelectedNode": "\\Botaniqa.Api\\Botaniqa.Api.csproj",
   "PreviewInSolutionExplorer": false
 }

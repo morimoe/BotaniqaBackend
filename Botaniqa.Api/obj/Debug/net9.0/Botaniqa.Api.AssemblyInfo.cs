@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Botaniqa.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a73b04697a97d36d86e37e975300061d3efa776e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0b15ad363ad84d77542d56a30432a9739fff951")]
 [assembly: System.Reflection.AssemblyProductAttribute("Botaniqa.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Botaniqa.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
