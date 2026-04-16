@@ -1,5 +1,5 @@
 namespace Botaniqa.Api.Domain
-{//
+{////
     public class Currency
     {
         public int Id { get; set; }
