@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Botaniqa.BusinessLogic", "B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Botaniqa.Domain", "Botaniqa.Domain\Botaniqa.Domain.csproj", "{B3E791E6-4024-4320-8D75-F0CAE1F238B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Botaniqa.DataAccess", "Botaniqa.DataAccess\Botaniqa.DataAccess.csproj", "{1EBD2CF7-8446-4071-9CC2-6EE9DCD40AA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,8 +57,23 @@ Global
 		{B3E791E6-4024-4320-8D75-F0CAE1F238B6}.Release|x64.Build.0 = Release|Any CPU
 		{B3E791E6-4024-4320-8D75-F0CAE1F238B6}.Release|x86.ActiveCfg = Release|Any CPU
 		{B3E791E6-4024-4320-8D75-F0CAE1F238B6}.Release|x86.Build.0 = Release|Any CPU
+		{1EBD2CF7-8446-4071-9CC2-6EE9DCD40AA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EBD2CF7-8446-4071-9CC2-6EE9DCD40AA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EBD2CF7-8446-4071-9CC2-6EE9DCD40AA7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1EBD2CF7-8446-4071-9CC2-6EE9DCD40AA7}.Debug|x64.Build.0 = Debug|Any CPU
+		{1EBD2CF7-8446-4071-9CC2-6EE9DCD40AA7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1EBD2CF7-8446-4071-9CC2-6EE9DCD40AA7}.Debug|x86.Build.0 = Debug|Any CPU
+		{1EBD2CF7-8446-4071-9CC2-6EE9DCD40AA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EBD2CF7-8446-4071-9CC2-6EE9DCD40AA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EBD2CF7-8446-4071-9CC2-6EE9DCD40AA7}.Release|x64.ActiveCfg = Release|Any CPU
+		{1EBD2CF7-8446-4071-9CC2-6EE9DCD40AA7}.Release|x64.Build.0 = Release|Any CPU
+		{1EBD2CF7-8446-4071-9CC2-6EE9DCD40AA7}.Release|x86.ActiveCfg = Release|Any CPU
+		{1EBD2CF7-8446-4071-9CC2-6EE9DCD40AA7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C74ADD3-C7A1-4E5A-9A80-812DA4DD295B}
 	EndGlobalSection
 EndGlobal

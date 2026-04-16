@@ -1,16 +1,13 @@
-﻿//разобраться 
+﻿using Botaniqa.BusinessLogic;
 using Botaniqa.BusinessLogic.Interfaces;
-namespace Botaniqa.BusinessLogic
-{
-    public class SessionBL :  ISession
-    {
 
-    }
-    public class BL
+namespace eUseControl.BusinessLogic
+{
+    public class BussinesLogic
     {
-        public ISession GetSessionBL() 
-        { 
-            return new SessionBL(); 
+        public ISession GetSessionBL()
+        {
+            return new SessionBL();
         }
     }
 }

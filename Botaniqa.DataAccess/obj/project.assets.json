@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {
-      "Botaniqa.DataAccess/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/Botaniqa.DataAccess.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Botaniqa.DataAccess.dll": {}
-        }
-      }
-    }
+    "net8.0": {}
   },
-  "libraries": {
-    "Botaniqa.DataAccess/1.0.0": {
-      "type": "project",
-      "path": "../Botaniqa.DataAccess/Botaniqa.DataAccess.csproj",
-      "msbuildProject": "../Botaniqa.DataAccess/Botaniqa.DataAccess.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net9.0": [
-      "Botaniqa.DataAccess >= 1.0.0"
-    ]
+    "net8.0": []
   },
   "packageFolders": {
     "C:\\Users\\morim\\.nuget\\packages\\": {},
@@ -33,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\personal\\Uni\\curs 2\\sem 4\\TWeb\\Back\\morimoe\\BotaniqaBackend\\Botaniqa.Domain\\Botaniqa.Domain.csproj",
-      "projectName": "Botaniqa.Domain",
-      "projectPath": "D:\\personal\\Uni\\curs 2\\sem 4\\TWeb\\Back\\morimoe\\BotaniqaBackend\\Botaniqa.Domain\\Botaniqa.Domain.csproj",
+      "projectUniqueName": "D:\\personal\\Uni\\curs 2\\sem 4\\TWeb\\Back\\morimoe\\BotaniqaBackend\\Botaniqa.DataAccess\\Botaniqa.DataAccess.csproj",
+      "projectName": "Botaniqa.DataAccess",
+      "projectPath": "D:\\personal\\Uni\\curs 2\\sem 4\\TWeb\\Back\\morimoe\\BotaniqaBackend\\Botaniqa.DataAccess\\Botaniqa.DataAccess.csproj",
       "packagesPath": "C:\\Users\\morim\\.nuget\\packages\\",
-      "outputPath": "D:\\personal\\Uni\\curs 2\\sem 4\\TWeb\\Back\\morimoe\\BotaniqaBackend\\Botaniqa.Domain\\obj\\",
+      "outputPath": "D:\\personal\\Uni\\curs 2\\sem 4\\TWeb\\Back\\morimoe\\BotaniqaBackend\\Botaniqa.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,20 +29,16 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net9.0"
+        "net8.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
-          "projectReferences": {
-            "D:\\personal\\Uni\\curs 2\\sem 4\\TWeb\\Back\\morimoe\\BotaniqaBackend\\Botaniqa.DataAccess\\Botaniqa.DataAccess.csproj": {
-              "projectPath": "D:\\personal\\Uni\\curs 2\\sem 4\\TWeb\\Back\\morimoe\\BotaniqaBackend\\Botaniqa.DataAccess\\Botaniqa.DataAccess.csproj"
-            }
-          }
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -77,8 +54,8 @@
       "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
-      "net9.0": {
-        "targetAlias": "net9.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "imports": [
           "net461",
           "net462",

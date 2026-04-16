@@ -1,6 +1,6 @@
 ﻿namespace Botaniqa.BusinessLogic.Core
 {
-    internal class UserApi
+    public class UserApi
     {
 
     }

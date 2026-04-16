@@ -1,6 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <ProjectReference Include="..\Botaniqa.DataAccess\Botaniqa.DataAccess.csproj" />
     <ProjectReference Include="..\Botaniqa.Domain\Botaniqa.Domain.csproj" />
   </ItemGroup>
 
