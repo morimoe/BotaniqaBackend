@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 //разобраться почему не работает
 
-namespace Botaniqa.Api.Controllers
+namespace Botaniqa.Api.Controller
 {
     public class LoginController : ControllerBase
     {

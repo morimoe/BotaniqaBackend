@@ -16,8 +16,6 @@ namespace Botaniqa.Api.Domain
         public decimal Price { get; set; } // всегда в MDL
         public bool IsAvailable { get; set; }
         public string? Image { get; set; }
-
-
         public int CurrencyId { get; set; }
         public Currency Currency { get; set; } = null!;
     }

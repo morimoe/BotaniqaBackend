@@ -6,8 +6,11 @@ namespace Botaniqa.BusinessLogic
     {
 
     }
-        public class BL
-        {
-            public ISession GetSessionBL() { return new SessionBL(); }
+    public class BL
+    {
+        public ISession GetSessionBL() 
+        { 
+            return new SessionBL(); 
         }
+    }
 }
