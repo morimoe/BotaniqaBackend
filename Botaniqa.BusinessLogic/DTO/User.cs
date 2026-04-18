@@ -1,4 +1,4 @@
-﻿namespace Botaniqa.Api.Domain
+﻿namespace Botaniqa.BL.UserDTO
 {
     public class User
     {

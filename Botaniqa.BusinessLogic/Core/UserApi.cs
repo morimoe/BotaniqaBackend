@@ -1,7 +1,7 @@
-﻿namespace Botaniqa.BusinessLogic.Core
-{
-    public class UserApi
-    {
+﻿using AutoMapper;
+using Botaniqa.BL.UserDTO;
 
-    }
+public class UserApi
+{
+
 }
