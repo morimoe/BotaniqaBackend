@@ -1,4 +1,5 @@
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddAutoMapper(typeof(MappingProfile));
 //add services to the container
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();

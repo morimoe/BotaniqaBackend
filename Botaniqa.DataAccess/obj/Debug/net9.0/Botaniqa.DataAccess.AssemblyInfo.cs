@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Botaniqa.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+067aeb2ab5ce49f34bf938366050ce61f3d2f1e7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+785fb7d77652a16b04199d97f5cc2ba1385df621")]
 [assembly: System.Reflection.AssemblyProductAttribute("Botaniqa.DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Botaniqa.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
