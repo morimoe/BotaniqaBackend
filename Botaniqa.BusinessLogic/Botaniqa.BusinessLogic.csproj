@@ -1,6 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="16.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Botaniqa.DataAccess\Botaniqa.DataAccess.csproj" />
     <ProjectReference Include="..\Botaniqa.Domain\Botaniqa.Domain.csproj" />
   </ItemGroup>
