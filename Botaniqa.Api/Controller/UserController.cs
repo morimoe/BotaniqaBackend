@@ -1,4 +1,4 @@
-﻿using Botaniqa.Api.Domain;
+﻿using Botaniqa.BL.UserDTO;
 using Botaniqa.Domain.Entities.User;
 using eUseControl.BusinessLogic;
 using Microsoft.AspNetCore.Mvc;
@@ -9,7 +9,7 @@ namespace Botaniqa.Api.Controller
     [ApiController]
     public class UserController : ControllerBase
     {
-        private readonly Botaniqa.BusinessLogic.Interfaces.ISession _session; // ← полный путь
+        private readonly Botaniqa.BusinessLogic.Interfaces.ISession _session; 
         public UserController()
         {
             var bl = new BussinesLogic();

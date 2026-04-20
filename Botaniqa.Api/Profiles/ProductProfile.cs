@@ -1,6 +1,6 @@
 ﻿// Botaniqa.BusinessLogic/Profiles/MappingProfile.cs
 using AutoMapper;
-using Botaniqa.Api.DTO;
+using Botaniqa.BL.UserDTO;
 
 public class MappingProfile : Profile
 {

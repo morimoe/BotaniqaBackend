@@ -34,3 +34,5 @@ D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.BusinessLogic\obj\Deb
 D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.BusinessLogic\obj\Debug\net9.0\refint\Botaniqa.BusinessLogic.dll
 D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.BusinessLogic\obj\Debug\net9.0\Botaniqa.BusinessLogic.pdb
 D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.BusinessLogic\obj\Debug\net9.0\ref\Botaniqa.BusinessLogic.dll
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.BusinessLogic\bin\Debug\net9.0\Botaniqa.BusinessLogic.runtimeconfig.json
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.BusinessLogic\obj\Debug\net9.0\Botaniqa.BusinessLogic.genruntimeconfig.cache

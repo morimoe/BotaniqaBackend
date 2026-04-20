@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "Botaniqa.Api.Domain.Product",
+        "Type": "Botaniqa.BL.ProductDTO.Product",
         "IsRequired": true
       }
     ],
@@ -46,7 +46,7 @@
       },
       {
         "Name": "updatedUser",
-        "Type": "Botaniqa.Api.Domain.Product",
+        "Type": "Botaniqa.BL.ProductDTO.Product",
         "IsRequired": true
       }
     ],
@@ -88,7 +88,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "Botaniqa.Api.Domain.CreateUserRequest",
+        "Type": "Botaniqa.BL.UserDTO.CreateUserRequest",
         "IsRequired": true
       }
     ],
@@ -125,7 +125,7 @@
       },
       {
         "Name": "updatedUser",
-        "Type": "Botaniqa.Api.Domain.User",
+        "Type": "Botaniqa.BL.UserDTO.User",
         "IsRequired": true
       }
     ],

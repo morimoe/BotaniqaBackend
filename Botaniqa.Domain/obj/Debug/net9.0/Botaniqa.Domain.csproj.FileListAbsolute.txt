@@ -27,3 +27,5 @@ D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Domain\obj\Debug\net9
 D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Domain\obj\Debug\net9.0\refint\Botaniqa.Domain.dll
 D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Domain\obj\Debug\net9.0\Botaniqa.Domain.pdb
 D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Domain\obj\Debug\net9.0\ref\Botaniqa.Domain.dll
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Domain\bin\Debug\net9.0\Botaniqa.Domain.runtimeconfig.json
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Domain\obj\Debug\net9.0\Botaniqa.Domain.genruntimeconfig.cache

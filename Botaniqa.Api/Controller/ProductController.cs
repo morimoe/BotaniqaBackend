@@ -1,4 +1,4 @@
-﻿using Botaniqa.Api.Domain;
+﻿using Botaniqa.BL.ProductDTO;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Botaniqa.Api.Controller
