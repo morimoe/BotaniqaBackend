@@ -41,3 +41,15 @@ D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.Api\obj\
 D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.Api\obj\Debug\net9.0\Botaniqa.Api.pdb
 D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.Api\obj\Debug\net9.0\Botaniqa.Api.genruntimeconfig.cache
 D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.Api\obj\Debug\net9.0\ref\Botaniqa.Api.dll
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Api\obj\Debug\net9.0\Botaniqa.Api.csproj.AssemblyReference.cache
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Api\obj\Debug\net9.0\rpswa.dswa.cache.json
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Api\obj\Debug\net9.0\Botaniqa.Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Api\obj\Debug\net9.0\Botaniqa.Api.AssemblyInfoInputs.cache
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Api\obj\Debug\net9.0\Botaniqa.Api.AssemblyInfo.cs
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Api\obj\Debug\net9.0\Botaniqa.Api.csproj.CoreCompileInputs.cache
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Api\obj\Debug\net9.0\Botaniqa.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Api\obj\Debug\net9.0\Botaniqa.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Api\obj\Debug\net9.0\Botaniqa.Api.sourcelink.json
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Api\obj\Debug\net9.0\Botaniqa.Api.dll
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Api\obj\Debug\net9.0\refint\Botaniqa.Api.dll
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Api\obj\Debug\net9.0\Botaniqa.Api.pdb

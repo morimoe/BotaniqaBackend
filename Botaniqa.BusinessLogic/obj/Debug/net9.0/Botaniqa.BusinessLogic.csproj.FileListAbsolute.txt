@@ -16,3 +16,21 @@ D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.Business
 D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.BusinessLogic\obj\Debug\net9.0\refint\Botaniqa.BusinessLogic.dll
 D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.BusinessLogic\obj\Debug\net9.0\Botaniqa.BusinessLogic.pdb
 D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.BusinessLogic\obj\Debug\net9.0\ref\Botaniqa.BusinessLogic.dll
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.BusinessLogic\bin\Debug\net9.0\Botaniqa.BusinessLogic.deps.json
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.BusinessLogic\bin\Debug\net9.0\Botaniqa.BusinessLogic.dll
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.BusinessLogic\bin\Debug\net9.0\Botaniqa.BusinessLogic.pdb
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.BusinessLogic\bin\Debug\net9.0\Botaniqa.DataAccess.dll
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.BusinessLogic\bin\Debug\net9.0\Botaniqa.Domain.dll
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.BusinessLogic\bin\Debug\net9.0\Botaniqa.DataAccess.pdb
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.BusinessLogic\bin\Debug\net9.0\Botaniqa.Domain.pdb
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.BusinessLogic\obj\Debug\net9.0\Botaniqa.BusinessLogic.csproj.AssemblyReference.cache
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.BusinessLogic\obj\Debug\net9.0\Botaniqa.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.BusinessLogic\obj\Debug\net9.0\Botaniqa.BusinessLogic.AssemblyInfoInputs.cache
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.BusinessLogic\obj\Debug\net9.0\Botaniqa.BusinessLogic.AssemblyInfo.cs
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.BusinessLogic\obj\Debug\net9.0\Botaniqa.BusinessLogic.csproj.CoreCompileInputs.cache
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.BusinessLogic\obj\Debug\net9.0\Botaniqa.BusinessLogic.sourcelink.json
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.BusinessLogic\obj\Debug\net9.0\Botaniqa.C5D19F49.Up2Date
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.BusinessLogic\obj\Debug\net9.0\Botaniqa.BusinessLogic.dll
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.BusinessLogic\obj\Debug\net9.0\refint\Botaniqa.BusinessLogic.dll
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.BusinessLogic\obj\Debug\net9.0\Botaniqa.BusinessLogic.pdb
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.BusinessLogic\obj\Debug\net9.0\ref\Botaniqa.BusinessLogic.dll

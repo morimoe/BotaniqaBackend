@@ -1,5 +1,10 @@
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddAutoMapper(typeof(MappingProfile));
+
+
+Botaniqa.DataAccess.DbSession.ConnectionString =
+    builder.Configuration.GetConnectionString("DefaultConnection");
+
 //add services to the container
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();

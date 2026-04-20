@@ -14,3 +14,16 @@ D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.Domain\o
 D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.Domain\obj\Debug\net9.0\refint\Botaniqa.Domain.dll
 D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.Domain\obj\Debug\net9.0\Botaniqa.Domain.pdb
 D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.Domain\obj\Debug\net9.0\ref\Botaniqa.Domain.dll
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Domain\bin\Debug\net9.0\Botaniqa.Domain.deps.json
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Domain\bin\Debug\net9.0\Botaniqa.Domain.dll
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Domain\bin\Debug\net9.0\Botaniqa.Domain.pdb
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Domain\obj\Debug\net9.0\Botaniqa.Domain.csproj.AssemblyReference.cache
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Domain\obj\Debug\net9.0\Botaniqa.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Domain\obj\Debug\net9.0\Botaniqa.Domain.AssemblyInfoInputs.cache
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Domain\obj\Debug\net9.0\Botaniqa.Domain.AssemblyInfo.cs
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Domain\obj\Debug\net9.0\Botaniqa.Domain.csproj.CoreCompileInputs.cache
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Domain\obj\Debug\net9.0\Botaniqa.Domain.sourcelink.json
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Domain\obj\Debug\net9.0\Botaniqa.Domain.dll
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Domain\obj\Debug\net9.0\refint\Botaniqa.Domain.dll
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Domain\obj\Debug\net9.0\Botaniqa.Domain.pdb
+D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Domain\obj\Debug\net9.0\ref\Botaniqa.Domain.dll
