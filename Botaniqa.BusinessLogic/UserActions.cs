@@ -18,7 +18,7 @@ namespace Botaniqa.BusinessLogic.Core
             using (var db = new UserContext(options))
             {
                 var user = db.Users.FirstOrDefault(
-                    u => u.UserName == udata.Credential && u.Password == udata.Password);
+                    u => u.Username == udata.Credential && u.Password == udata.Password);
                 return user != null;
             }
         }

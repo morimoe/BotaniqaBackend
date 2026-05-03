@@ -29,27 +29,20 @@ namespace Botaniqa.Api.Controller
         }
 
         // In-memory storage for users (for demonstration purposes)
-        private static List<User> _users = new();
-        private static int _nextId = 1;
 
         [HttpGet("all")]
         public IActionResult GetAllUsers()
         {
-            return Ok(_users);
+            return Ok(_context.Users.ToList());
         }
 
         [HttpGet("{id}")]
         public IActionResult GetUserById(int id)
         {
-
-            var user = _users.FirstOrDefault( u  => u.Id == id);
-
+            var user = _context.Users.FirstOrDefault(u => u.Id == id);
             if (user == null)
-            {
                 return NotFound(new { Message = $"User with ID {id} not found" });
-            }
-
-             return Ok(user);
+            return Ok(user);
         }
 
         [HttpPost]
@@ -68,29 +61,24 @@ namespace Botaniqa.Api.Controller
         [HttpPut("{id}")]
         public IActionResult UpdateUser(int id, [FromBody] User updatedUser)
         {
-            var existingUser = _users.FirstOrDefault(u => u.Id == id);
-
+            var existingUser = _context.Users.FirstOrDefault(u => u.Id == id);
             if (existingUser == null)
-            {
                 return NotFound(new { Message = $"User with ID {id} not found" });
-            }
             existingUser.Username = updatedUser.Username;
             existingUser.Email = updatedUser.Email;
-
+            _context.SaveChanges();
             return Ok(existingUser);
         }
+
 
         [HttpDelete("{id}")]
         public IActionResult DeleteUser(int id)
         {
-            var user = _users.FirstOrDefault(u => u.Id == id);
-
+            var user = _context.Users.FirstOrDefault(u => u.Id == id);
             if (user == null)
-            {
                 return NotFound(new { Message = $"User with ID {id} not found" });
-            }
-            _users.Remove(user);
-
+            _context.Users.Remove(user);
+            _context.SaveChanges();
             return NoContent();
         }
 

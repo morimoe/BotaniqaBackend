@@ -9,12 +9,12 @@ namespace Botaniqa.Domain.Entities.User
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int? Id { get; set; }
+        public int Id { get; set; }
         
         [Required]
         [Display(Name = "Username")]
         [StringLength(30, MinimumLength = 5, ErrorMessage = "Username cannot be longer than 30 characters. ")]
-        public string UserName { get; set; }
+        public string Username { get; set; }
 
         [Required]
         [Display(Name = "Email")]

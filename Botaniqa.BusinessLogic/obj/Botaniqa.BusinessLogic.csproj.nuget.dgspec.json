@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Botaniqa_Back\\Botaniqa\\morimoe\\BotaniqaBackend\\Botaniqa.BusinessLogic\\Botaniqa.BusinessLogic.csproj": {}
+    "D:\\personal\\Uni\\curs 2\\sem 4\\TWeb\\Back\\morimoe\\BotaniqaBackend\\Botaniqa.BusinessLogic\\Botaniqa.BusinessLogic.csproj": {}
   },
   "projects": {
-    "D:\\Botaniqa_Back\\Botaniqa\\morimoe\\BotaniqaBackend\\Botaniqa.BusinessLogic\\Botaniqa.BusinessLogic.csproj": {
+    "D:\\personal\\Uni\\curs 2\\sem 4\\TWeb\\Back\\morimoe\\BotaniqaBackend\\Botaniqa.BusinessLogic\\Botaniqa.BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Botaniqa_Back\\Botaniqa\\morimoe\\BotaniqaBackend\\Botaniqa.BusinessLogic\\Botaniqa.BusinessLogic.csproj",
+        "projectUniqueName": "D:\\personal\\Uni\\curs 2\\sem 4\\TWeb\\Back\\morimoe\\BotaniqaBackend\\Botaniqa.BusinessLogic\\Botaniqa.BusinessLogic.csproj",
         "projectName": "Botaniqa.BusinessLogic",
-        "projectPath": "D:\\Botaniqa_Back\\Botaniqa\\morimoe\\BotaniqaBackend\\Botaniqa.BusinessLogic\\Botaniqa.BusinessLogic.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Botaniqa_Back\\Botaniqa\\morimoe\\BotaniqaBackend\\Botaniqa.BusinessLogic\\obj\\",
+        "projectPath": "D:\\personal\\Uni\\curs 2\\sem 4\\TWeb\\Back\\morimoe\\BotaniqaBackend\\Botaniqa.BusinessLogic\\Botaniqa.BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\morim\\.nuget\\packages\\",
+        "outputPath": "D:\\personal\\Uni\\curs 2\\sem 4\\TWeb\\Back\\morimoe\\BotaniqaBackend\\Botaniqa.BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\morim\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,11 +32,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Botaniqa_Back\\Botaniqa\\morimoe\\BotaniqaBackend\\Botaniqa.DataAccess\\Botaniqa.DataAccess.csproj": {
-                "projectPath": "D:\\Botaniqa_Back\\Botaniqa\\morimoe\\BotaniqaBackend\\Botaniqa.DataAccess\\Botaniqa.DataAccess.csproj"
+              "D:\\personal\\Uni\\curs 2\\sem 4\\TWeb\\Back\\morimoe\\BotaniqaBackend\\Botaniqa.DataAccess\\Botaniqa.DataAccess.csproj": {
+                "projectPath": "D:\\personal\\Uni\\curs 2\\sem 4\\TWeb\\Back\\morimoe\\BotaniqaBackend\\Botaniqa.DataAccess\\Botaniqa.DataAccess.csproj"
               },
-              "D:\\Botaniqa_Back\\Botaniqa\\morimoe\\BotaniqaBackend\\Botaniqa.Domain\\Botaniqa.Domain.csproj": {
-                "projectPath": "D:\\Botaniqa_Back\\Botaniqa\\morimoe\\BotaniqaBackend\\Botaniqa.Domain\\Botaniqa.Domain.csproj"
+              "D:\\personal\\Uni\\curs 2\\sem 4\\TWeb\\Back\\morimoe\\BotaniqaBackend\\Botaniqa.Domain\\Botaniqa.Domain.csproj": {
+                "projectPath": "D:\\personal\\Uni\\curs 2\\sem 4\\TWeb\\Back\\morimoe\\BotaniqaBackend\\Botaniqa.Domain\\Botaniqa.Domain.csproj"
               }
             }
           }
@@ -110,24 +110,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Botaniqa_Back\\Botaniqa\\morimoe\\BotaniqaBackend\\Botaniqa.DataAccess\\Botaniqa.DataAccess.csproj": {
+    "D:\\personal\\Uni\\curs 2\\sem 4\\TWeb\\Back\\morimoe\\BotaniqaBackend\\Botaniqa.DataAccess\\Botaniqa.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Botaniqa_Back\\Botaniqa\\morimoe\\BotaniqaBackend\\Botaniqa.DataAccess\\Botaniqa.DataAccess.csproj",
+        "projectUniqueName": "D:\\personal\\Uni\\curs 2\\sem 4\\TWeb\\Back\\morimoe\\BotaniqaBackend\\Botaniqa.DataAccess\\Botaniqa.DataAccess.csproj",
         "projectName": "Botaniqa.DataAccess",
-        "projectPath": "D:\\Botaniqa_Back\\Botaniqa\\morimoe\\BotaniqaBackend\\Botaniqa.DataAccess\\Botaniqa.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Botaniqa_Back\\Botaniqa\\morimoe\\BotaniqaBackend\\Botaniqa.DataAccess\\obj\\",
+        "projectPath": "D:\\personal\\Uni\\curs 2\\sem 4\\TWeb\\Back\\morimoe\\BotaniqaBackend\\Botaniqa.DataAccess\\Botaniqa.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\morim\\.nuget\\packages\\",
+        "outputPath": "D:\\personal\\Uni\\curs 2\\sem 4\\TWeb\\Back\\morimoe\\BotaniqaBackend\\Botaniqa.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\morim\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -142,8 +142,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Botaniqa_Back\\Botaniqa\\morimoe\\BotaniqaBackend\\Botaniqa.Domain\\Botaniqa.Domain.csproj": {
-                "projectPath": "D:\\Botaniqa_Back\\Botaniqa\\morimoe\\BotaniqaBackend\\Botaniqa.Domain\\Botaniqa.Domain.csproj"
+              "D:\\personal\\Uni\\curs 2\\sem 4\\TWeb\\Back\\morimoe\\BotaniqaBackend\\Botaniqa.Domain\\Botaniqa.Domain.csproj": {
+                "projectPath": "D:\\personal\\Uni\\curs 2\\sem 4\\TWeb\\Back\\morimoe\\BotaniqaBackend\\Botaniqa.Domain\\Botaniqa.Domain.csproj"
               }
             }
           }
@@ -217,24 +217,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Botaniqa_Back\\Botaniqa\\morimoe\\BotaniqaBackend\\Botaniqa.Domain\\Botaniqa.Domain.csproj": {
+    "D:\\personal\\Uni\\curs 2\\sem 4\\TWeb\\Back\\morimoe\\BotaniqaBackend\\Botaniqa.Domain\\Botaniqa.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Botaniqa_Back\\Botaniqa\\morimoe\\BotaniqaBackend\\Botaniqa.Domain\\Botaniqa.Domain.csproj",
+        "projectUniqueName": "D:\\personal\\Uni\\curs 2\\sem 4\\TWeb\\Back\\morimoe\\BotaniqaBackend\\Botaniqa.Domain\\Botaniqa.Domain.csproj",
         "projectName": "Botaniqa.Domain",
-        "projectPath": "D:\\Botaniqa_Back\\Botaniqa\\morimoe\\BotaniqaBackend\\Botaniqa.Domain\\Botaniqa.Domain.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Botaniqa_Back\\Botaniqa\\morimoe\\BotaniqaBackend\\Botaniqa.Domain\\obj\\",
+        "projectPath": "D:\\personal\\Uni\\curs 2\\sem 4\\TWeb\\Back\\morimoe\\BotaniqaBackend\\Botaniqa.Domain\\Botaniqa.Domain.csproj",
+        "packagesPath": "C:\\Users\\morim\\.nuget\\packages\\",
+        "outputPath": "D:\\personal\\Uni\\curs 2\\sem 4\\TWeb\\Back\\morimoe\\BotaniqaBackend\\Botaniqa.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\morim\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -320,7 +320,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -28,3 +28,9 @@ D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.DataAccess\obj\Debug\
 D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.DataAccess\obj\Debug\net9.0\ref\Botaniqa.DataAccess.dll
 D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.DataAccess\bin\Debug\net9.0\Botaniqa.DataAccess.runtimeconfig.json
 D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.DataAccess\obj\Debug\net9.0\Botaniqa.DataAccess.genruntimeconfig.cache
+D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.DataAccess\bin\Debug\net9.0\Botaniqa.DataAccess.runtimeconfig.json
+D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.DataAccess\bin\Debug\net9.0\Botaniqa.Domain.dll
+D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.DataAccess\bin\Debug\net9.0\Botaniqa.Domain.pdb
+D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.DataAccess\obj\Debug\net9.0\Botaniqa.DataAccess.csproj.AssemblyReference.cache
+D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.DataAccess\obj\Debug\net9.0\Botaniqa.66760905.Up2Date
+D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.DataAccess\obj\Debug\net9.0\Botaniqa.DataAccess.genruntimeconfig.cache
