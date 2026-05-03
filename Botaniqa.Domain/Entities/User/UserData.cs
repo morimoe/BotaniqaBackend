@@ -9,10 +9,8 @@ namespace Botaniqa.Domain.Entities.User
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-
+        public int? Id { get; set; }
+        
         [Required]
         [Display(Name = "Username")]
         [StringLength(30, MinimumLength = 5, ErrorMessage = "Username cannot be longer than 30 characters. ")]
@@ -28,10 +26,8 @@ namespace Botaniqa.Domain.Entities.User
         [StringLength(50, MinimumLength = 8, ErrorMessage = "Password cannot be shorter than 8 characters. ")]
         public string Password { get; set; }
 
-        [StringLength(20)]
-        public string Phone { get; set; }
+        
+ 
 
-        [DataType(DataType.Date)]
-        public DateTime RegisteredOn { get; set; }
     }
 }

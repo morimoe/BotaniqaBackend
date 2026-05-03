@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Botaniqa.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e8a370bd606a2c75739a552e48f5262dee43afa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53cb49bca582f54785795e14dbb122d3700a618e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Botaniqa.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Botaniqa.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

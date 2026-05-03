@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
 using Botaniqa.BL.UserDTO;
-using Botaniqa.DataAccess.Context;
 using Botaniqa.Domain.Entities.User;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Botaniqa.DataAccess.Context;
 
 namespace Botaniqa.Api.Controller
 
@@ -55,12 +55,13 @@ namespace Botaniqa.Api.Controller
         [HttpPost]
         public IActionResult CreateUser([FromBody] CreateUserRequest request)
         {
-            var user = _mapper.Map<User>(request);
-
-            user.Id = _nextId++;              
+            
+            var user = _mapper.Map<UserData>(request);
            
-            _users.Add(user);
+            _context.Users.Add(user);
 
+            _context.SaveChanges();
+            
             return Created($"api/users/{user.Id}", user);
         }
 
