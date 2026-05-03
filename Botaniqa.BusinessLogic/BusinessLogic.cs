@@ -1,9 +1,9 @@
-﻿using Botaniqa.BusinessLogic;
+﻿
 using Botaniqa.BusinessLogic.Interfaces;
 
-namespace eUseControl.BusinessLogic
+namespace Botaniqa.BusinessLogic
 {
-    public class BussinesLogic
+    public class BusinessLogic
     {
         public ISession GetSessionBL()
         {

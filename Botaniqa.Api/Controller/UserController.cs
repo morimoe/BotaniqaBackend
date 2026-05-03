@@ -1,19 +1,31 @@
-﻿using Botaniqa.BL.UserDTO;
+﻿using AutoMapper;
+using Botaniqa.BL.UserDTO;
+using Botaniqa.DataAccess.Context;
 using Botaniqa.Domain.Entities.User;
-using eUseControl.BusinessLogic;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 
 namespace Botaniqa.Api.Controller
+
 {
     [Route("api/user")]
     [ApiController]
     public class UserController : ControllerBase
     {
-        private readonly Botaniqa.BusinessLogic.Interfaces.ISession _session; 
-        public UserController()
+
+        private readonly BusinessLogic.Interfaces.ISession _session;
+        
+        private readonly IMapper _mapper;
+
+        private readonly UserContext _context;
+
+        public UserController(IMapper mapper, UserContext context)
         {
-            var bl = new BussinesLogic();
+            var bl = new BusinessLogic.BusinessLogic();
             _session = bl.GetSessionBL();
+            _mapper = mapper;
+            _context = context;
         }
 
         // In-memory storage for users (for demonstration purposes)
@@ -43,14 +55,12 @@ namespace Botaniqa.Api.Controller
         [HttpPost]
         public IActionResult CreateUser([FromBody] CreateUserRequest request)
         {
-            var user = new User
-            {
-                Id = _nextId++,
-                Username = request.Username,
-                Email = request.Email
-            };
+            var user = _mapper.Map<User>(request);
 
+            user.Id = _nextId++;              
+           
             _users.Add(user);
+
             return Created($"api/users/{user.Id}", user);
         }
 

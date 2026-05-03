@@ -85,7 +85,6 @@ D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Api\bin\Debug\net9.0\
 D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Api\bin\Debug\net9.0\System.ClientModel.dll
 D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Api\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
-D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Api\bin\Debug\net9.0\System.Diagnostics.DiagnosticSource.dll
 D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Api\bin\Debug\net9.0\System.Drawing.Common.dll
 D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Api\bin\Debug\net9.0\System.Formats.Asn1.dll
 D:\Botaniqa_Back\Botaniqa\morimoe\BotaniqaBackend\Botaniqa.Api\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
