@@ -2,10 +2,7 @@
 using Botaniqa.BL.UserDTO;
 using Botaniqa.DataAccess.Context;
 using Botaniqa.Domain.Entities.User;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
 
 namespace Botaniqa.Api.Controller
 
@@ -94,7 +91,8 @@ namespace Botaniqa.Api.Controller
 
             // ищем пользователя в базе
             var user = _context.Users.FirstOrDefault(u =>
-                u.Username == login.Credential && u.Password == login.Password);
+                (u.Username == login.Credential || u.Email == login.Credential)
+                && u.Password == login.Password);
 
             if (user == null)
                 return Unauthorized(new { Message = "Invalid credentials" });
