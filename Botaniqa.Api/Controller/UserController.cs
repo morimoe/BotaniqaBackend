@@ -1,10 +1,11 @@
 ﻿using AutoMapper;
 using Botaniqa.BL.UserDTO;
+using Botaniqa.DataAccess.Context;
 using Botaniqa.Domain.Entities.User;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using Botaniqa.DataAccess.Context;
 
 namespace Botaniqa.Api.Controller
 
@@ -31,6 +32,7 @@ namespace Botaniqa.Api.Controller
         // In-memory storage for users (for demonstration purposes)
 
         [HttpGet("all")]
+        [AdminMod]
         public IActionResult GetAllUsers()
         {
             return Ok(_context.Users.ToList());
@@ -59,6 +61,7 @@ namespace Botaniqa.Api.Controller
         }
 
         [HttpPut("{id}")]
+        [AdminMod]
         public IActionResult UpdateUser(int id, [FromBody] User updatedUser)
         {
             var existingUser = _context.Users.FirstOrDefault(u => u.Id == id);
@@ -72,6 +75,7 @@ namespace Botaniqa.Api.Controller
 
 
         [HttpDelete("{id}")]
+        [AdminMod]
         public IActionResult DeleteUser(int id)
         {
             var user = _context.Users.FirstOrDefault(u => u.Id == id);
@@ -88,24 +92,18 @@ namespace Botaniqa.Api.Controller
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-            ULoginData data = new ULoginData
-            {
-                Credential = login.Credential,
-                Password = login.Password,
-                LoginIp = HttpContext.Connection.RemoteIpAddress?.ToString(),
-                LoginDateTime = DateTime.Now
-            };
+            // ищем пользователя в базе
+            var user = _context.Users.FirstOrDefault(u =>
+                u.Username == login.Credential && u.Password == login.Password);
 
-            var result = _session.UserLogin(data);
+            if (user == null)
+                return Unauthorized(new { Message = "Invalid credentials" });
 
-            if (result.Status)
-            {
-                return Ok(new { Message = "Login successful" });
-            }
-            else
-            {
-                return Unauthorized(new { Message = result.StatusMsg });
-            }
+            // генерируем токен с ролью
+            var tokenService = new BusinessLogic.TokenService();
+            var token = tokenService.GenerateToken(user.Id, user.Username, user.Role);
+
+            return Ok(new { Token = token });
         }
     }
 }
