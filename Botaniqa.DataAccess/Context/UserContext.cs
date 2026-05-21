@@ -1,6 +1,7 @@
-﻿using Botaniqa.Domain.Entities.User;
+﻿using Botaniqa.Domain.Entities.Cart;
 using Botaniqa.Domain.Entities.Favorites;
-using Botaniqa.Domain.Entities.Cart;
+using Botaniqa.Domain.Entities.Product;
+using Botaniqa.Domain.Entities.User;
 using Microsoft.EntityFrameworkCore;
 
 namespace Botaniqa.DataAccess.Context
@@ -12,6 +13,7 @@ namespace Botaniqa.DataAccess.Context
         }
 
         public DbSet<UserData> Users { get; set; }
+        public DbSet<ProductData> Products { get; set; }
         public DbSet<CartItem> CartItems { get; set; }      // ← внутри класса
         public DbSet<FavoriteItem> FavoriteItems { get; set; } // ← внутри класса
 

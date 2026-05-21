@@ -1,22 +1,22 @@
 namespace Botaniqa.BL.ProductDTO
 {
-    public class Currency
-    {
-        public int Id { get; set; }
-        //подумать как это сделать, возможно так и оставить
-        public string Code { get; set; } = string.Empty;    // "USD", "EUR", "MDL"
-        public string Symbol { get; set; } = string.Empty;  // "$", "€", "L"
-    }
 
     public class Product
     {
         public int Id { get; set; }
         public string ProductName { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;
-        public decimal Price { get; set; } // всегда в MDL
-        public bool IsAvailable { get; set; }
-        public string? Image { get; set; }
-        public int CurrencyId { get; set; }
-        public Currency Currency { get; set; } = null!;
+        public decimal Price { get; set; } 
+        public int Stock { get; set; }
+        public string Image { get; set; } = string.Empty;
+    }
+
+    public class CreateProductRequest
+    {
+        public string ProductName { get; set; } = string.Empty;
+        public string Description { get; set; } = string.Empty;
+        public decimal Price { get; set; } 
+        public int Stock { get; set; }
+        public string Image { get; set; } = string.Empty;
     }
 }

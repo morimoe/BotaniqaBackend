@@ -34,3 +34,21 @@ D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.DataAcce
 D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.DataAccess\obj\Debug\net9.0\Botaniqa.DataAccess.csproj.AssemblyReference.cache
 D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.DataAccess\obj\Debug\net9.0\Botaniqa.66760905.Up2Date
 D:\personal\Uni\curs 2\sem 4\TWeb\Back\morimoe\BotaniqaBackend\Botaniqa.DataAccess\obj\Debug\net9.0\Botaniqa.DataAccess.genruntimeconfig.cache
+D:\BotanicaBackend\BotaniqaBackend\Botaniqa.DataAccess\bin\Debug\net9.0\Botaniqa.DataAccess.deps.json
+D:\BotanicaBackend\BotaniqaBackend\Botaniqa.DataAccess\bin\Debug\net9.0\Botaniqa.DataAccess.runtimeconfig.json
+D:\BotanicaBackend\BotaniqaBackend\Botaniqa.DataAccess\bin\Debug\net9.0\Botaniqa.DataAccess.dll
+D:\BotanicaBackend\BotaniqaBackend\Botaniqa.DataAccess\bin\Debug\net9.0\Botaniqa.DataAccess.pdb
+D:\BotanicaBackend\BotaniqaBackend\Botaniqa.DataAccess\bin\Debug\net9.0\Botaniqa.Domain.dll
+D:\BotanicaBackend\BotaniqaBackend\Botaniqa.DataAccess\bin\Debug\net9.0\Botaniqa.Domain.pdb
+D:\BotanicaBackend\BotaniqaBackend\Botaniqa.DataAccess\obj\Debug\net9.0\Botaniqa.DataAccess.csproj.AssemblyReference.cache
+D:\BotanicaBackend\BotaniqaBackend\Botaniqa.DataAccess\obj\Debug\net9.0\Botaniqa.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\BotanicaBackend\BotaniqaBackend\Botaniqa.DataAccess\obj\Debug\net9.0\Botaniqa.DataAccess.AssemblyInfoInputs.cache
+D:\BotanicaBackend\BotaniqaBackend\Botaniqa.DataAccess\obj\Debug\net9.0\Botaniqa.DataAccess.AssemblyInfo.cs
+D:\BotanicaBackend\BotaniqaBackend\Botaniqa.DataAccess\obj\Debug\net9.0\Botaniqa.DataAccess.csproj.CoreCompileInputs.cache
+D:\BotanicaBackend\BotaniqaBackend\Botaniqa.DataAccess\obj\Debug\net9.0\Botaniqa.DataAccess.sourcelink.json
+D:\BotanicaBackend\BotaniqaBackend\Botaniqa.DataAccess\obj\Debug\net9.0\Botaniqa.66760905.Up2Date
+D:\BotanicaBackend\BotaniqaBackend\Botaniqa.DataAccess\obj\Debug\net9.0\Botaniqa.DataAccess.dll
+D:\BotanicaBackend\BotaniqaBackend\Botaniqa.DataAccess\obj\Debug\net9.0\refint\Botaniqa.DataAccess.dll
+D:\BotanicaBackend\BotaniqaBackend\Botaniqa.DataAccess\obj\Debug\net9.0\Botaniqa.DataAccess.pdb
+D:\BotanicaBackend\BotaniqaBackend\Botaniqa.DataAccess\obj\Debug\net9.0\Botaniqa.DataAccess.genruntimeconfig.cache
+D:\BotanicaBackend\BotaniqaBackend\Botaniqa.DataAccess\obj\Debug\net9.0\ref\Botaniqa.DataAccess.dll

@@ -1,88 +1,62 @@
 ﻿using Botaniqa.BL.ProductDTO;
+using Botaniqa.BusinessLogic;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Botaniqa.Api.Controller
 {
-    [Route(template: "api/product")]
+    [Route("api/product")]
     [ApiController]
     public class ProductController : ControllerBase
     {
-        // In-memory storage for products (for demonstration purposes)
-        private static List<Product> _products = new();
+        private readonly ProductService _productService;
 
-        private static int _nextId = 1;
-
-        [HttpGet(template: "all")]
-        public IActionResult GetAllProducts()
+        public ProductController(ProductService productService)
         {
-            return Ok(_products);
+            _productService = productService;
         }
 
-        [HttpGet(template: "{id}")]
-
-        public IActionResult GetUserByProducts(int id)
+        [HttpGet("all")]
+        public async Task<IActionResult> GetAllProducts()
         {
+            var products = await _productService.GetAllAsync();
+            return Ok(products);
+        }
 
-            var product = _products.FirstOrDefault(u => u.Id == id);
-
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetProductById(int id)
+        {
+            var product = await _productService.GetByIdAsync(id);
             if (product == null)
-            {
                 return NotFound(new { Message = $"Product with ID {id} not found" });
-            }
-
             return Ok(product);
         }
+
         [HttpPost]
-        public IActionResult CreateProduct([FromBody] Product request)
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> CreateProduct([FromBody] CreateProductRequest request)
         {
-            var product = new Product
-            {
-                Id = _nextId++,
-                ProductName = request.ProductName,
-                Description = request.Description,
-                Price = request.Price,
-                Image = request.Image,
-                IsAvailable = request.IsAvailable,
-                Currency = request.Currency
-            };
-
-            _products.Add(product);
-            return Created($"api/users/{product.Id}", product);
+            var product = await _productService.CreateAsync(request);
+            return Created($"api/product/{product.Id}", product);
         }
 
-        [HttpPut(template: "{id}")]
-
-        public IActionResult UpdateProduct(int id, [FromBody] Product updatedUser)
+        [HttpPut("{id}")]
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> UpdateProduct(int id, [FromBody] CreateProductRequest request)
         {
-            var existingProduct = _products.FirstOrDefault(u => u.Id == id);
-
-            if (existingProduct == null)
-            {
-                return NotFound(new { Message = $"User with ID {id} not found" });
-            }
-            existingProduct.ProductName = updatedUser.ProductName;
-            existingProduct.Description = updatedUser.Description;
-            existingProduct.Price = updatedUser.Price;
-            existingProduct.Image = updatedUser.Image;
-            existingProduct.IsAvailable = updatedUser.IsAvailable;
-            existingProduct.Currency = updatedUser.Currency;
-
-            return Ok(existingProduct);
-        }
-
-
-        [HttpDelete(template: "{id}")]
-
-        public IActionResult DeleteProduct(int id)
-        {
-            var product = _products.FirstOrDefault(u => u.Id == id);
-
+            var product = await _productService.UpdateAsync(id, request);
             if (product == null)
-            {
                 return NotFound(new { Message = $"Product with ID {id} not found" });
-            }
-            _products.Remove(product);
+            return Ok(product);
+        }
 
+        [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> DeleteProduct(int id)
+        {
+            var result = await _productService.DeleteAsync(id);
+            if (!result)
+                return NotFound(new { Message = $"Product with ID {id} not found" });
             return NoContent();
         }
     }

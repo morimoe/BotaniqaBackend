@@ -167,17 +167,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Product"
+                "$ref": "#/components/schemas/CreateProductRequest"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Product"
+                "$ref": "#/components/schemas/CreateProductRequest"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Product"
+                "$ref": "#/components/schemas/CreateProductRequest"
               }
             }
           }
@@ -219,17 +219,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Product"
+                "$ref": "#/components/schemas/CreateProductRequest"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Product"
+                "$ref": "#/components/schemas/CreateProductRequest"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Product"
+                "$ref": "#/components/schemas/CreateProductRequest"
               }
             }
           }
@@ -416,6 +416,32 @@
         },
         "additionalProperties": false
       },
+      "CreateProductRequest": {
+        "type": "object",
+        "properties": {
+          "productName": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "price": {
+            "type": "number",
+            "format": "double"
+          },
+          "stock": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "image": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "CreateUserRequest": {
         "type": "object",
         "properties": {
@@ -430,60 +456,6 @@
           "password": {
             "type": "string",
             "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "Currency": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "code": {
-            "type": "string",
-            "nullable": true
-          },
-          "symbol": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "Product": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "productName": {
-            "type": "string",
-            "nullable": true
-          },
-          "description": {
-            "type": "string",
-            "nullable": true
-          },
-          "price": {
-            "type": "number",
-            "format": "double"
-          },
-          "isAvailable": {
-            "type": "boolean"
-          },
-          "image": {
-            "type": "string",
-            "nullable": true
-          },
-          "currencyId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "currency": {
-            "$ref": "#/components/schemas/Currency"
           }
         },
         "additionalProperties": false

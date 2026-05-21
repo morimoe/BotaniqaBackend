@@ -87,7 +87,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "Botaniqa.BL.ProductDTO.Product",
+        "Type": "Botaniqa.BL.ProductDTO.CreateProductRequest",
         "IsRequired": true
       }
     ],
@@ -95,7 +95,7 @@
   },
   {
     "ContainingType": "Botaniqa.Api.Controller.ProductController",
-    "Method": "GetUserByProducts",
+    "Method": "GetProductById",
     "RelativePath": "api/product/{id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -123,8 +123,8 @@
         "IsRequired": true
       },
       {
-        "Name": "updatedUser",
-        "Type": "Botaniqa.BL.ProductDTO.Product",
+        "Name": "request",
+        "Type": "Botaniqa.BL.ProductDTO.CreateProductRequest",
         "IsRequired": true
       }
     ],

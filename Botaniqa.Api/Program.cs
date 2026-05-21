@@ -14,6 +14,7 @@ Botaniqa.DataAccess.DbSession.ConnectionString =
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddScoped<CartActions>();
+builder.Services.AddScoped<ProductService>();
 builder.Services.AddSwaggerGen(c =>
 {
     c.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme
