@@ -9,6 +9,7 @@ namespace Botaniqa.BL.ProductDTO
         public decimal Price { get; set; } 
         public int Stock { get; set; }
         public string Image { get; set; } = string.Empty;
+        public string Category { get; set; } = string.Empty;
     }
 
     public class CreateProductRequest
@@ -18,5 +19,6 @@ namespace Botaniqa.BL.ProductDTO
         public decimal Price { get; set; } 
         public int Stock { get; set; }
         public string Image { get; set; } = string.Empty;
+        public string Category { get; set; } = string.Empty;
     }
 }

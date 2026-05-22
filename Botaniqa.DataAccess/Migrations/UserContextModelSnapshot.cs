@@ -40,6 +40,8 @@ namespace Botaniqa.DataAccess.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("ProductId");
+
                     b.ToTable("CartItems");
                 });
 
@@ -59,6 +61,8 @@ namespace Botaniqa.DataAccess.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("ProductId");
+
                     b.ToTable("FavoriteItems");
                 });
 
@@ -69,6 +73,10 @@ namespace Botaniqa.DataAccess.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Category")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Description")
                         .IsRequired()
@@ -125,6 +133,24 @@ namespace Botaniqa.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("Botaniqa.Domain.Entities.Cart.CartItem", b =>
+                {
+                    b.HasOne("Botaniqa.Domain.Entities.Product.ProductData", null)
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Botaniqa.Domain.Entities.Favorites.FavoriteItem", b =>
+                {
+                    b.HasOne("Botaniqa.Domain.Entities.Product.ProductData", null)
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

@@ -42,7 +42,13 @@ namespace Botaniqa.BusinessLogic
             var product = await _context.Products.FindAsync(id);
             if (product == null) return null;
 
-            _mapper.Map(request, product);
+            if (!string.IsNullOrEmpty(request.ProductName)) product.ProductName = request.ProductName;
+            if (!string.IsNullOrEmpty(request.Description)) product.Description = request.Description;
+            if (request.Price > 0) product.Price = request.Price;
+            if (!string.IsNullOrEmpty(request.Image)) product.Image = request.Image;
+            if (!string.IsNullOrEmpty(request.Category)) product.Category = request.Category;
+            if (request.Stock > 0) product.Stock = request.Stock;
+
             await _context.SaveChangesAsync();
             return _mapper.Map<Product>(product);
         }

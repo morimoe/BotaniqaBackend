@@ -1,4 +1,5 @@
-﻿using Microsoft.IdentityModel.Tokens;
+﻿using Botaniqa.BL.UserDTO;
+using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
@@ -20,8 +21,7 @@ namespace Botaniqa.BusinessLogic
             {
                 new Claim(ClaimTypes.NameIdentifier, userId.ToString()),
                 new Claim(ClaimTypes.Name, username),
-                new Claim(ClaimTypes.Role, role),
-                new Claim(ClaimTypes.Role, "Admin")
+                new Claim(ClaimTypes.Role, role), // роль берётся из БД, не захардкожена
             };
 
             var token = new JwtSecurityToken(

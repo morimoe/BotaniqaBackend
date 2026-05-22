@@ -24,5 +24,19 @@ namespace Botaniqa.DataAccess.Context
                 optionsBuilder.UseSqlServer(DbSession.ConnectionString);
             }
         }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<FavoriteItem>()
+                .HasOne<ProductData>()
+                .WithMany()
+                .HasForeignKey(f => f.ProductId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<CartItem>()
+                .HasOne<ProductData>()
+                .WithMany()
+                .HasForeignKey(c => c.ProductId)
+                .OnDelete(DeleteBehavior.Cascade);
+        }
     }
 }

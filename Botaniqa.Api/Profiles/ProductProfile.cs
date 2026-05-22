@@ -21,5 +21,6 @@ public class MappingProfile : Profile
 
         CreateMap<CreateProductRequest, ProductData>();
 
+
     }
 }
