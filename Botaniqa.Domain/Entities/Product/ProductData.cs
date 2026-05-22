@@ -27,5 +27,8 @@ namespace Botaniqa.Domain.Entities.Product
         [Required]
         public string Image { get; set; } = string.Empty;
 
+        [Required]
+        public string Category { get; set; } = string.Empty;
+
     }
 }

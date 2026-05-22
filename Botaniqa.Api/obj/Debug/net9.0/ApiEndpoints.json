@@ -250,5 +250,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Botaniqa.Api.Controller.UserController",
+    "Method": "UpdateMe",
+    "RelativePath": "api/user/me",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Botaniqa.BL.UserDTO.UpdateMeRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
