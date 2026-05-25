@@ -37,17 +37,20 @@ namespace Botaniqa.BusinessLogic
             return _mapper.Map<Product>(productData);
         }
 
-        public async Task<Product?> UpdateAsync(int id, CreateProductRequest request)
+        public async Task<Product?> UpdateAsync(int id, UpdateProductRequest request)
         {
             var product = await _context.Products.FindAsync(id);
             if (product == null) return null;
 
             if (!string.IsNullOrEmpty(request.ProductName)) product.ProductName = request.ProductName;
             if (!string.IsNullOrEmpty(request.Description)) product.Description = request.Description;
-            if (request.Price > 0) product.Price = request.Price;
+            if (request.Price.HasValue && request.Price.Value > 0)
+                product.Price = request.Price.Value;
+            if (request.Stock.HasValue && request.Stock.Value >= 0)
+                product.Stock = request.Stock.Value;
             if (!string.IsNullOrEmpty(request.Image)) product.Image = request.Image;
             if (!string.IsNullOrEmpty(request.Category)) product.Category = request.Category;
-            if (request.Stock > 0) product.Stock = request.Stock;
+
 
             await _context.SaveChangesAsync();
             return _mapper.Map<Product>(product);

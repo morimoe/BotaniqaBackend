@@ -39,16 +39,16 @@ namespace Botaniqa.DataAccess.Context
                 .OnDelete(DeleteBehavior.Cascade);
 
             modelBuilder.Entity<OrderItem>()
-                .HasOne<OrderData>()
-                .WithMany()
-                .HasForeignKey(o => o.OrderId)
-                .OnDelete(DeleteBehavior.Cascade);
-
-            modelBuilder.Entity<OrderItem>()
-                .HasOne<ProductData>()
+                .HasOne(o => o.Product)  // ← указываем навигационное свойство
                 .WithMany()
                 .HasForeignKey(o => o.ProductId)
                 .OnDelete(DeleteBehavior.NoAction);
+
+            modelBuilder.Entity<OrderItem>()
+                .HasOne<OrderData>()
+                .WithMany(o => o.OrderItems)  // ← и здесь тоже
+                .HasForeignKey(o => o.OrderId)
+                .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

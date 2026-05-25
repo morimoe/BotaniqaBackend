@@ -24,8 +24,16 @@ namespace Botaniqa.Api.Controller
             int? userId = null;
             var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
             if (userIdClaim != null) userId = int.Parse(userIdClaim);
-            var order = await _orderService.CreateAsync(request, userId);
-            return Created($"api/order/{order.Id}", new { order.Id, order.TotalPrice, order.CreatedAt });
+
+            try
+            {
+                var order = await _orderService.CreateAsync(request, userId);
+                return Created($"api/order/{order.Id}", new { order.Id, order.TotalPrice, order.CreatedAt });
+            }
+            catch (InvalidOperationException ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
         }
 
         [HttpGet("all")]

@@ -42,7 +42,7 @@ namespace Botaniqa.Api.Controller
 
         [HttpPut("{id}")]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> UpdateProduct(int id, [FromBody] CreateProductRequest request)
+        public async Task<IActionResult> UpdateProduct(int id, [FromBody] UpdateProductRequest request)
         {
             var product = await _productService.UpdateAsync(id, request);
             if (product == null)

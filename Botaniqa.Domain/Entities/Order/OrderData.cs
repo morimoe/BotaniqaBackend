@@ -47,5 +47,7 @@ namespace Botaniqa.Domain.Entities.Order
 
         public decimal TotalPrice { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public List<OrderItem> OrderItems { get; set; } = new();
+
     }
 }
