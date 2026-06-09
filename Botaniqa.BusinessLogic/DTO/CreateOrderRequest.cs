@@ -25,6 +25,7 @@ namespace Botaniqa.BL.OrderDTO
 
         [Required] public string PaymentMethod { get; set; } = string.Empty;
 
+        [MinLength(1, ErrorMessage = "Заказ должен содержать хотя бы один товар")]
         public List<OrderItemRequest> Items { get; set; } = new();
     }
 

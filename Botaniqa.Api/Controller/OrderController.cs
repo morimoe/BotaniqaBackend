@@ -21,6 +21,12 @@ namespace Botaniqa.Api.Controller
         [Authorize]
         public async Task<IActionResult> CreateOrder([FromBody] CreateOrderRequest request)
         {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            if (request.Items == null || request.Items.Count == 0)
+                return BadRequest(new { Message = "Заказ не может быть пустым" });
+
             int? userId = null;
             var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
             if (userIdClaim != null) userId = int.Parse(userIdClaim);

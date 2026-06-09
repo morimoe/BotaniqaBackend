@@ -14,7 +14,7 @@ namespace Botaniqa.Api.Controller
     {
 
         private readonly BusinessLogic.Interfaces.ISession _session;
-        
+
         private readonly IMapper _mapper;
 
         private readonly UserContext _context;
@@ -48,13 +48,12 @@ namespace Botaniqa.Api.Controller
         [HttpPost]
         public IActionResult CreateUser([FromBody] CreateUserRequest request)
         {
-            
-            var user = _mapper.Map<UserData>(request);
-           
-            _context.Users.Add(user);
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
 
+            var user = _mapper.Map<UserData>(request);
+            _context.Users.Add(user);
             _context.SaveChanges();
-            
             return Created($"api/users/{user.Id}", user);
         }
 
@@ -127,6 +126,7 @@ namespace Botaniqa.Api.Controller
             _context.SaveChanges();
             return Ok(new { Message = "Данные обновлены" });
         }
+
 
     }
 }
